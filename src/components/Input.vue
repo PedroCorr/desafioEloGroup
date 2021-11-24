@@ -4,7 +4,7 @@
         <label :for="id">{{ label }}</label>
         <span v-show="required" class="label">*</span>
       </div>
-      <input :type="type" :id="id" :value="value" @input="$emit('input', $event.target.value)" :placeholder="placeholder">
+      <input :type="type" @input="$emit('input', $event.target.value)" :placeholder="placeholder">
   </div>
 </template>
 
@@ -20,18 +20,18 @@ export default {
             type: String,
             required: true
         },
-        value: {
-            type: String,
-            required: false
-        },
+        // value: {
+        //     type: String,
+        //     required: false
+        // },
         type: {
             type: String,
             required: false
         },
-        id: {
-            type: String,
-            required: false
-        },
+        // id: {
+        //     type: String,
+        //     required: false
+        // },
         placeholder: {
             type: String,
             required: false

@@ -32,7 +32,6 @@
           :drop-placeholder="{ className: 'placeholder' }"
         >
           <Draggable>
-            <!-- <Lead></Lead> -->
           </Draggable>
         </Container>
       </div>
@@ -46,7 +45,6 @@
           :drop-placeholder="{ className: 'placeholder' }"
         >
           <Draggable>
-            <!-- <Lead></Lead> -->
           </Draggable>
         </Container>
       </div>
@@ -91,14 +89,6 @@ export default {
       window.location.href = "newlead";
     },
 
-    // names() {
-    //    var lista_leads = JSON.parse(localStorage.getItem("lista-leads") || "[]");
-    //    console.log(lista_leads)
-    //    this.newLead += lista_leads
-    //    console.log(lista_leads[0].nome)
-    //    console.log(this.leads)
-
-    // }
 
     handleDragStart(lane, dragResult) {
       const { payload, isSource } = dragResult;

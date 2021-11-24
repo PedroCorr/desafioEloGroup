@@ -5,7 +5,7 @@
 </template>
 
 <style>
-html, body, #pp {
+html, body, #app {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="login">
-      <Logo/>
+      <Logo />
       <form id="login-form" @submit.prevent="submitForm">
         <Input label="Usuario" required v-model="input_usuario" />
         <Input
@@ -104,7 +104,6 @@ export default {
 </script>
 
 <style scoped>
-
 .container {
   display: flex;
   flex-direction: row;
@@ -120,12 +119,10 @@ export default {
   padding-bottom: 30px;
   width: 100%;
   max-width: 340px;
-
 }
 
 #login-form {
   padding: 0 10px;
 }
-
 </style>
 
